@@ -49,7 +49,7 @@ body {
 }
 
 .header-background {
-    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), url(https://i.imgur.com/TAn6FWz.jpg) center center fixed;
+    background: linear-gradient(rgba(44, 40, 37, 0.7), rgba(255, 254, 253, 0.9)), url(https://i.imgur.com/TAn6FWz.jpg) center center fixed;
     background-size: cover;
     text-align: center;
     height: 100vh;
@@ -62,9 +62,11 @@ body {
     max-width: 40%;
     height: auto;
     border-radius: 
-
 }
-
+.img:hover{
+    cursor: pointer;
+    zoom: 230%;
+}
 
 nav {
     width: 100%;
@@ -116,9 +118,14 @@ nav ul li a {
 }
 
 .profile-photo {
-    max-width: 40%;
+    max-width: 15%;
     height: auto; 
     border-radius: 50%; 
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 0.5%;
+    background-color: #0fbfbf;
 }
 
 #portfolio {
@@ -132,10 +139,13 @@ nav ul li a {
 .project {
     width: 200px;
     height: 200px;
-    border: 1px solid #ccc;
+    border: 1px solid #120909;
     margin: 10px;
     display: inline-block;
     line-height: 200px;
+    border-radius: 50%;
+    background-color: rgb(227, 230, 203);
+    
 }
 
 #contact {
