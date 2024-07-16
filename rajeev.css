@@ -10,10 +10,10 @@ header{
     background: linear-gradient(
     rgba(255, 254, 253, 0.7),
     rgba(255, 254, 253, 0.9)),
-    url(https://wallpapercave.com/wp/wp4676574.jpg)center center fixed;
+    url(https://wallpapercave.com/wp/wp4676574.jpg)center  center fixed;
     background-size: cover;
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,16 +48,8 @@ body {
     overflow-x: hidden;
 }
 
-.header-background {
-    background: linear-gradient(rgba(44, 40, 37, 0.7), rgba(255, 254, 253, 0.9)), url(https://i.imgur.com/TAn6FWz.jpg) center center fixed;
-    background-size: cover;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .img{
     max-width: 40%;
     height: auto;
@@ -65,7 +57,7 @@ body {
 }
 .img:hover{
     cursor: pointer;
-    zoom: 230%;
+    zoom: 120%;
 }
 
 nav {
@@ -128,12 +120,16 @@ nav ul li a {
     background-color: #0fbfbf;
 }
 
+
 #portfolio {
     background-color: #cd8181ea; 
     padding: 15px;
     border-radius: 0.5%;
     text-align: center;
     margin-bottom: 10px;
+}
+#portfolio:hover{
+    color: #000a0a;
 }
 
 .project {
@@ -145,9 +141,14 @@ nav ul li a {
     line-height: 200px;
     border-radius: 50%;
     background-color: rgb(227, 230, 203);
+    padding: 0.5%;
     
 }
-
+.project:hover{
+    cursor: pointer;
+    background-color: #73a228;
+    zoom: 90%;
+}
 #contact {
     background-color: #84b5a0; 
     padding: 15px;
@@ -191,11 +192,23 @@ a:hover {
         margin: 10px 0;
     }
   
-  .profile-photo {
+.profile-photo {
         width: 50%; 
         margin: 0 auto; 
     }
 }
 p{
     font-family: cursive;
+}
+.button{
+    background-color: rgb(235, 174, 174);
+    border-color:none;
+    color: #011414;
+}
+.button:hover{
+    cursor: pointer;
+    zoom: 120%;
+    background-color: #043302;
+    color: #f4f4f4;
+    border-radius: 10px;
 }
